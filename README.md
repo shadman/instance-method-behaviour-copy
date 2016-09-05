@@ -3,7 +3,7 @@
 Created an instance method Array#my_map and Array#a_map. These methods copying the behavior of the original Array#map method. 
 
 
-By using `my_map` method; which is using yield approch:
+By using `my_map` method; which is using yield approch (please see code for more details):
 
 ## Example 1:
 
@@ -25,14 +25,14 @@ By using `my_map` method; which is using yield approch:
 		#=> ["1", "2", "3", "4"]
 
 
-Similarly, another method `a_map`; which is using reference values:
+Similarly, another method `a_map`; which is using passing reference values (please see code for more details):
 
 
 ## Example 1:
 
 	a = [1, 2, 3, 4]
 
-	a.my_map do |x|
+	a.a_map do |x|
   		x + 1
 	end
 
